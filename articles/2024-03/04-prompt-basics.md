@@ -136,6 +136,9 @@ tags: ["DeepSeek", "提示词", "AI 对话"]
 1. **问题描述技巧**
 
    a) **STAR 法则**
+   
+   ![STAR 法则图解](images/star-method.svg)
+   
    - Situation（情境）：描述背景
    - Task（任务）：说明目标
    - Action（行动）：期望的处理方式

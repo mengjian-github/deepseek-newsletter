@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#f8f9fa"/>
+    
+    <!-- 中心圆形 -->
+    <circle cx="400" cy="300" r="200" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    
+    <!-- STAR 文字 -->
+    <text x="400" y="300" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#212529" text-anchor="middle" dominant-baseline="middle">STAR</text>
+    
+    <!-- Situation -->
+    <g transform="translate(400,140)">
+        <circle cx="0" cy="0" r="60" fill="#4263eb" opacity="0.9"/>
+        <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" dominant-baseline="middle">Situation</text>
+        <text x="0" y="20" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">情境</text>
+    </g>
+    
+    <!-- Task -->
+    <g transform="translate(560,300)">
+        <circle cx="0" cy="0" r="60" fill="#40c057" opacity="0.9"/>
+        <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" dominant-baseline="middle">Task</text>
+        <text x="0" y="20" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">任务</text>
+    </g>
+    
+    <!-- Action -->
+    <g transform="translate(400,460)">
+        <circle cx="0" cy="0" r="60" fill="#fd7e14" opacity="0.9"/>
+        <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" dominant-baseline="middle">Action</text>
+        <text x="0" y="20" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">行动</text>
+    </g>
+    
+    <!-- Result -->
+    <g transform="translate(240,300)">
+        <circle cx="0" cy="0" r="60" fill="#e64980" opacity="0.9"/>
+        <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" dominant-baseline="middle">Result</text>
+        <text x="0" y="20" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">结果</text>
+    </g>
+    
+    <!-- 连接线 -->
+    <g stroke="#adb5bd" stroke-width="2">
+        <line x1="400" y1="200" x2="400" y2="260"/>
+        <line x1="500" y1="300" x2="440" y2="300"/>
+        <line x1="400" y1="400" x2="400" y2="340"/>
+        <line x1="300" y1="300" x2="360" y2="300"/>
+    </g>
+</svg> 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#f8f9fa"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="60" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">对话人格类型</text>
+    
+    <!-- 四个圆形区域 -->
+    <!-- 专业顾问型 -->
+    <g transform="translate(200,200)">
+        <circle cx="0" cy="0" r="80" fill="#4CAF50" fill-opacity="0.1" stroke="#4CAF50" stroke-width="2"/>
+        <text x="0" y="-40" font-size="16" font-weight="bold" text-anchor="middle" fill="#2E7D32">专业顾问型</text>
+        <text x="0" y="-15" font-size="12" text-anchor="middle" fill="#444">专业严谨</text>
+        <text x="0" y="5" font-size="12" text-anchor="middle" fill="#444">注重细节</text>
+        <text x="0" y="25" font-size="12" text-anchor="middle" fill="#444">技术咨询</text>
+    </g>
+    
+    <!-- 教学指导型 -->
+    <g transform="translate(600,200)">
+        <circle cx="0" cy="0" r="80" fill="#2196F3" fill-opacity="0.1" stroke="#2196F3" stroke-width="2"/>
+        <text x="0" y="-40" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565C0">教学指导型</text>
+        <text x="0" y="-15" font-size="12" text-anchor="middle" fill="#444">耐心善教</text>
+        <text x="0" y="5" font-size="12" text-anchor="middle" fill="#444">善于类比</text>
+        <text x="0" y="25" font-size="12" text-anchor="middle" fill="#444">知识传授</text>
+    </g>
+    
+    <!-- 创意激发型 -->
+    <g transform="translate(200,450)">
+        <circle cx="0" cy="0" r="80" fill="#FF9800" fill-opacity="0.1" stroke="#FF9800" stroke-width="2"/>
+        <text x="0" y="-40" font-size="16" font-weight="bold" text-anchor="middle" fill="#E65100">创意激发型</text>
+        <text x="0" y="-15" font-size="12" text-anchor="middle" fill="#444">发散思维</text>
+        <text x="0" y="5" font-size="12" text-anchor="middle" fill="#444">创新视角</text>
+        <text x="0" y="25" font-size="12" text-anchor="middle" fill="#444">头脑风暴</text>
+    </g>
+    
+    <!-- 辩论分析型 -->
+    <g transform="translate(600,450)">
+        <circle cx="0" cy="0" r="80" fill="#9C27B0" fill-opacity="0.1" stroke="#9C27B0" stroke-width="2"/>
+        <text x="0" y="-40" font-size="16" font-weight="bold" text-anchor="middle" fill="#6A1B9A">辩论分析型</text>
+        <text x="0" y="-15" font-size="12" text-anchor="middle" fill="#444">客观中立</text>
+        <text x="0" y="5" font-size="12" text-anchor="middle" fill="#444">多角度思考</text>
+        <text x="0" y="25" font-size="12" text-anchor="middle" fill="#444">决策分析</text>
+    </g>
+    
+    <!-- 连接线 -->
+    <g stroke="#ddd" stroke-width="2">
+        <line x1="200" y1="200" x2="600" y2="200"/>
+        <line x1="200" y1="200" x2="200" y2="450"/>
+        <line x1="600" y1="200" x2="600" y2="450"/>
+        <line x1="200" y1="450" x2="600" y2="450"/>
+    </g>
+</svg> 

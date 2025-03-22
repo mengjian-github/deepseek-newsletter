@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#f8f9fa"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">
+        DeepSeek 视频制作工作流程
+    </text>
+
+    <!-- 四个主要环节 -->
+    <g transform="translate(100,120)">
+        <!-- 1. 前期策划 -->
+        <rect x="0" y="0" width="120" height="160" rx="10" fill="#ff7675" opacity="0.9"/>
+        <text x="60" y="40" text-anchor="middle" font-size="16" fill="white" font-weight="bold">前期策划</text>
+        <text x="60" y="70" text-anchor="middle" font-size="12" fill="white">热点分析</text>
+        <text x="60" y="90" text-anchor="middle" font-size="12" fill="white">受众画像</text>
+        <text x="60" y="110" text-anchor="middle" font-size="12" fill="white">内容框架</text>
+        <text x="60" y="130" text-anchor="middle" font-size="12" fill="white">变现策划</text>
+
+        <!-- 2. 脚本撰写 -->
+        <rect x="180" y="0" width="120" height="160" rx="10" fill="#74b9ff" opacity="0.9"/>
+        <text x="240" y="40" text-anchor="middle" font-size="16" fill="white" font-weight="bold">脚本撰写</text>
+        <text x="240" y="70" text-anchor="middle" font-size="12" fill="white">平台文案</text>
+        <text x="240" y="90" text-anchor="middle" font-size="12" fill="white">开场设计</text>
+        <text x="240" y="110" text-anchor="middle" font-size="12" fill="white">对话编写</text>
+        <text x="240" y="130" text-anchor="middle" font-size="12" fill="white">互动优化</text>
+
+        <!-- 3. 镜头设计 -->
+        <rect x="360" y="0" width="120" height="160" rx="10" fill="#55efc4" opacity="0.9"/>
+        <text x="420" y="40" text-anchor="middle" font-size="16" fill="white" font-weight="bold">镜头设计</text>
+        <text x="420" y="70" text-anchor="middle" font-size="12" fill="white">场景转换</text>
+        <text x="420" y="90" text-anchor="middle" font-size="12" fill="white">镜头语言</text>
+        <text x="420" y="110" text-anchor="middle" font-size="12" fill="white">视觉效果</text>
+        <text x="420" y="130" text-anchor="middle" font-size="12" fill="white">转场推荐</text>
+
+        <!-- 4. 后期优化 -->
+        <rect x="540" y="0" width="120" height="160" rx="10" fill="#a29bfe" opacity="0.9"/>
+        <text x="600" y="40" text-anchor="middle" font-size="16" fill="white" font-weight="bold">后期优化</text>
+        <text x="600" y="70" text-anchor="middle" font-size="12" fill="white">标题优化</text>
+        <text x="600" y="90" text-anchor="middle" font-size="12" fill="white">封面设计</text>
+        <text x="600" y="110" text-anchor="middle" font-size="12" fill="white">字幕生成</text>
+        <text x="600" y="130" text-anchor="middle" font-size="12" fill="white">发布建议</text>
+    </g>
+
+    <!-- 连接箭头 -->
+    <g transform="translate(100,200)">
+        <path d="M 120,0 L 180,0" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+        <path d="M 300,0 L 360,0" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+        <path d="M 480,0 L 540,0" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- 箭头标记定义 -->
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+                markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/>
+        </marker>
+    </defs>
+</svg> 

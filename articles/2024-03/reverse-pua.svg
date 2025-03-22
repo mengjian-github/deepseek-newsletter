@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">反向 PUA 核心思路</text>
+    
+    <!-- 中心圆圈 -->
+    <circle cx="400" cy="200" r="70" fill="#6366f1" opacity="0.2"/>
+    <text x="400" y="190" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">反向思维</text>
+    <text x="400" y="210" font-size="14" text-anchor="middle" fill="#666">质疑与挑战</text>
+    
+    <!-- 左上：列举反对理由 -->
+    <circle cx="200" cy="150" r="60" fill="#10b981" opacity="0.2"/>
+    <text x="200" y="140" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">列举反对理由</text>
+    <text x="200" y="160" font-size="12" text-anchor="middle" fill="#666">10个理由与方案</text>
+    
+    <!-- 右上：角色代入批评 -->
+    <circle cx="600" cy="150" r="60" fill="#f59e0b" opacity="0.2"/>
+    <text x="600" y="140" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">角色代入批评</text>
+    <text x="600" y="160" font-size="12" text-anchor="middle" fill="#666">多视角评估</text>
+    
+    <!-- 左下：复盘优化循环 -->
+    <circle cx="200" cy="300" r="60" fill="#ef4444" opacity="0.2"/>
+    <text x="200" y="290" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">复盘优化循环</text>
+    <text x="200" y="310" font-size="12" text-anchor="middle" fill="#666">至少10轮改进</text>
+    
+    <!-- 右下：极限场景测试 -->
+    <circle cx="600" cy="300" r="60" fill="#8b5cf6" opacity="0.2"/>
+    <text x="600" y="290" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">极限场景测试</text>
+    <text x="600" y="310" font-size="12" text-anchor="middle" fill="#666">边界条件探索</text>
+    
+    <!-- 连接线和箭头 -->
+    <line x1="270" y1="150" x2="330" y2="180" stroke="#666" stroke-width="2" opacity="0.5"/>
+    <line x1="470" y1="180" x2="540" y2="150" stroke="#666" stroke-width="2" opacity="0.5"/>
+    <line x1="270" y1="300" x2="330" y2="220" stroke="#666" stroke-width="2" opacity="0.5"/>
+    <line x1="470" y1="220" x2="540" y2="300" stroke="#666" stroke-width="2" opacity="0.5"/>
+    
+    <!-- 箭头 -->
+    <path d="M 330,180 L 350,170 L 340,190 Z" fill="#666" opacity="0.5"/>
+    <path d="M 540,150 L 560,140 L 550,160 Z" fill="#666" opacity="0.5"/>
+    <path d="M 330,220 L 350,210 L 340,230 Z" fill="#666" opacity="0.5"/>
+    <path d="M 540,300 L 560,290 L 550,310 Z" fill="#666" opacity="0.5"/>
+</svg> 

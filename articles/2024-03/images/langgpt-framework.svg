@@ -1,0 +1,50 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#f8f9fa"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#2c3e50">LangGPT 结构化提示词框架</text>
+    
+    <!-- 中心圆 -->
+    <circle cx="400" cy="200" r="120" fill="#3498db" opacity="0.2"/>
+    <text x="400" y="190" text-anchor="middle" font-size="20" fill="#2c3e50">LangGPT</text>
+    <text x="400" y="220" text-anchor="middle" font-size="14" fill="#2c3e50">结构化提示词框架</text>
+    
+    <!-- 左侧模块 -->
+    <g transform="translate(150,200)">
+        <rect x="-80" y="-120" width="160" height="240" rx="10" fill="#e74c3c" opacity="0.2"/>
+        <text x="0" y="-90" text-anchor="middle" font-size="16" fill="#c0392b">核心模块</text>
+        <text x="0" y="-60" text-anchor="middle" font-size="14">Role (角色)</text>
+        <text x="0" y="-30" text-anchor="middle" font-size="14">Skills (技能)</text>
+        <text x="0" y="0" text-anchor="middle" font-size="14">Rules (规则)</text>
+        <text x="0" y="30" text-anchor="middle" font-size="14">Goals (目标)</text>
+        <text x="0" y="60" text-anchor="middle" font-size="14">Workflow (工作流)</text>
+        <text x="0" y="90" text-anchor="middle" font-size="14">Init (初始化)</text>
+    </g>
+    
+    <!-- 右侧元素 -->
+    <g transform="translate(650,200)">
+        <rect x="-80" y="-120" width="160" height="240" rx="10" fill="#2ecc71" opacity="0.2"/>
+        <text x="0" y="-90" text-anchor="middle" font-size="16" fill="#27ae60">实现元素</text>
+        <text x="0" y="-60" text-anchor="middle" font-size="14">身份定义</text>
+        <text x="0" y="-30" text-anchor="middle" font-size="14">专业能力</text>
+        <text x="0" y="0" text-anchor="middle" font-size="14">行为约束</text>
+        <text x="0" y="30" text-anchor="middle" font-size="14">任务目标</text>
+        <text x="0" y="60" text-anchor="middle" font-size="14">执行步骤</text>
+        <text x="0" y="90" text-anchor="middle" font-size="14">启动配置</text>
+    </g>
+    
+    <!-- 连接线和箭头 -->
+    <line x1="230" y1="200" x2="280" y2="200" stroke="#95a5a6" stroke-width="2"/>
+    <polygon points="280,200 270,195 270,205" fill="#95a5a6"/>
+    
+    <line x1="520" y1="200" x2="570" y2="200" stroke="#95a5a6" stroke-width="2"/>
+    <polygon points="570,200 560,195 560,205" fill="#95a5a6"/>
+    
+    <!-- 中心说明文字 -->
+    <text x="400" y="300" text-anchor="middle" font-size="12" fill="#7f8c8d">模块化设计 · 标准化实现 · 灵活扩展</text>
+    
+    <!-- 箭头标注 -->
+    <text x="300" y="180" text-anchor="middle" font-size="12" fill="#7f8c8d">定义结构</text>
+    <text x="500" y="180" text-anchor="middle" font-size="12" fill="#7f8c8d">实现功能</text>
+</svg> 

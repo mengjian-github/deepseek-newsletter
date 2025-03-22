@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">杠精模式核心特点</text>
+    
+    <!-- 中心圆圈 -->
+    <circle cx="400" cy="200" r="70" fill="#6366f1" opacity="0.2"/>
+    <text x="400" y="190" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">批判性思维</text>
+    <text x="400" y="210" font-size="14" text-anchor="middle" fill="#666">发现问题 提供建议</text>
+    
+    <!-- 左上：全面审视 -->
+    <circle cx="200" cy="150" r="60" fill="#10b981" opacity="0.2"/>
+    <text x="200" y="140" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">全面审视</text>
+    <text x="200" y="160" font-size="12" text-anchor="middle" fill="#666">多角度分析</text>
+    
+    <!-- 右上：严格标准 -->
+    <circle cx="600" cy="150" r="60" fill="#f59e0b" opacity="0.2"/>
+    <text x="600" y="140" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">严格标准</text>
+    <text x="600" y="160" font-size="12" text-anchor="middle" fill="#666">极端场景测试</text>
+    
+    <!-- 左下：建设性反馈 -->
+    <circle cx="200" cy="300" r="60" fill="#ef4444" opacity="0.2"/>
+    <text x="200" y="290" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">建设性反馈</text>
+    <text x="200" y="310" font-size="12" text-anchor="middle" fill="#666">解决方案导向</text>
+    
+    <!-- 右下：优先级管理 -->
+    <circle cx="600" cy="300" r="60" fill="#8b5cf6" opacity="0.2"/>
+    <text x="600" y="290" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">优先级管理</text>
+    <text x="600" y="310" font-size="12" text-anchor="middle" fill="#666">问题分级处理</text>
+    
+    <!-- 连接线 -->
+    <line x1="270" y1="150" x2="330" y2="180" stroke="#666" stroke-width="2" opacity="0.5"/>
+    <line x1="470" y1="180" x2="540" y2="150" stroke="#666" stroke-width="2" opacity="0.5"/>
+    <line x1="270" y1="300" x2="330" y2="220" stroke="#666" stroke-width="2" opacity="0.5"/>
+    <line x1="470" y1="220" x2="540" y2="300" stroke="#666" stroke-width="2" opacity="0.5"/>
+    
+    <!-- 箭头 -->
+    <path d="M 330,180 L 350,170 L 340,190 Z" fill="#666" opacity="0.5"/>
+    <path d="M 540,150 L 560,140 L 550,160 Z" fill="#666" opacity="0.5"/>
+    <path d="M 330,220 L 350,210 L 340,230 Z" fill="#666" opacity="0.5"/>
+    <path d="M 540,300 L 560,290 L 550,310 Z" fill="#666" opacity="0.5"/>
+</svg> 

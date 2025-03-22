@@ -1,0 +1,75 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#f8f9fa"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#2c3e50">LangGPT 应用场景分析</text>
+    
+    <!-- 左侧：适合的场景 -->
+    <g transform="translate(250,250)">
+        <!-- 背景圆 -->
+        <circle cx="0" cy="0" r="150" fill="#2ecc71" opacity="0.1"/>
+        <text x="0" y="-120" text-anchor="middle" font-size="20" fill="#27ae60" font-weight="bold">适合的场景</text>
+        
+        <!-- 场景图标和文字 -->
+        <!-- 专业领域对话 -->
+        <g transform="translate(-60,-80)">
+            <circle cx="0" cy="0" r="25" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="0" text-anchor="middle" font-size="20">👨‍💼</text>
+            <text x="0" y="45" text-anchor="middle" font-size="14" fill="#2c3e50">专业领域对话</text>
+        </g>
+        
+        <!-- 复杂任务处理 -->
+        <g transform="translate(60,-80)">
+            <circle cx="0" cy="0" r="25" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="0" text-anchor="middle" font-size="20">🔄</text>
+            <text x="0" y="45" text-anchor="middle" font-size="14" fill="#2c3e50">复杂任务处理</text>
+        </g>
+        
+        <!-- 角色扮演 -->
+        <g transform="translate(-60,40)">
+            <circle cx="0" cy="0" r="25" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="0" text-anchor="middle" font-size="20">🎭</text>
+            <text x="0" y="45" text-anchor="middle" font-size="14" fill="#2c3e50">角色扮演</text>
+        </g>
+        
+        <!-- 持续交互 -->
+        <g transform="translate(60,40)">
+            <circle cx="0" cy="0" r="25" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="0" text-anchor="middle" font-size="20">💬</text>
+            <text x="0" y="45" text-anchor="middle" font-size="14" fill="#2c3e50">持续交互</text>
+        </g>
+    </g>
+    
+    <!-- 右侧：不适合的场景 -->
+    <g transform="translate(550,250)">
+        <!-- 背景圆 -->
+        <circle cx="0" cy="0" r="150" fill="#e74c3c" opacity="0.1"/>
+        <text x="0" y="-120" text-anchor="middle" font-size="20" fill="#c0392b" font-weight="bold">不适合的场景</text>
+        
+        <!-- 场景图标和文字 -->
+        <!-- 简单查询 -->
+        <g transform="translate(-60,-60)">
+            <circle cx="0" cy="0" r="25" fill="#e74c3c" opacity="0.2"/>
+            <text x="0" y="0" text-anchor="middle" font-size="20">🔍</text>
+            <text x="0" y="45" text-anchor="middle" font-size="14" fill="#2c3e50">简单查询</text>
+        </g>
+        
+        <!-- 高频交互 -->
+        <g transform="translate(60,-60)">
+            <circle cx="0" cy="0" r="25" fill="#e74c3c" opacity="0.2"/>
+            <text x="0" y="0" text-anchor="middle" font-size="20">⚡</text>
+            <text x="0" y="45" text-anchor="middle" font-size="14" fill="#2c3e50">高频交互</text>
+        </g>
+        
+        <!-- 单一任务 -->
+        <g transform="translate(0,40)">
+            <circle cx="0" cy="0" r="25" fill="#e74c3c" opacity="0.2"/>
+            <text x="0" y="0" text-anchor="middle" font-size="20">📝</text>
+            <text x="0" y="45" text-anchor="middle" font-size="14" fill="#2c3e50">单一任务</text>
+        </g>
+    </g>
+    
+    <!-- 底部说明 -->
+    <text x="400" y="460" text-anchor="middle" font-size="14" fill="#7f8c8d">选择合适的场景，发挥 LangGPT 的最大价值</text>
+</svg> 

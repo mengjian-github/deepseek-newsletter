@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#f8f9fa"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#2c3e50">DeepSeek 核心竞争力</text>
+    
+    <!-- 中心圆圈 -->
+    <circle cx="400" cy="300" r="120" fill="#3498db" opacity="0.1"/>
+    <text x="400" y="290" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c3e50">推理能力</text>
+    <text x="400" y="320" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c3e50">+</text>
+    <text x="400" y="350" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c3e50">第一梯队性能</text>
+    
+    <!-- 左侧：基础能力突破 -->
+    <rect x="50" y="200" width="200" height="80" rx="10" fill="#3498db" opacity="0.8"/>
+    <text x="150" y="245" text-anchor="middle" font-size="16" fill="white">基础能力突破</text>
+    
+    <!-- 左侧连接线 -->
+    <line x1="250" y1="240" x2="280" y2="300" stroke="#3498db" stroke-width="2"/>
+    
+    <!-- 右侧：三大核心优势 -->
+    <rect x="550" y="150" width="200" height="60" rx="10" fill="#e74c3c" opacity="0.8"/>
+    <text x="650" y="185" text-anchor="middle" font-size="16" fill="white">开源开放</text>
+    
+    <rect x="550" y="270" width="200" height="60" rx="10" fill="#2ecc71" opacity="0.8"/>
+    <text x="650" y="305" text-anchor="middle" font-size="16" fill="white">低成本优势</text>
+    
+    <rect x="550" y="390" width="200" height="60" rx="10" fill="#f1c40f" opacity="0.8"/>
+    <text x="650" y="425" text-anchor="middle" font-size="16" fill="white">国产化战略</text>
+    
+    <!-- 右侧连接线 -->
+    <line x1="520" y1="300" x2="550" y2="180" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="520" y1="300" x2="550" y2="300" stroke="#2ecc71" stroke-width="2"/>
+    <line x1="520" y1="300" x2="550" y2="420" stroke="#f1c40f" stroke-width="2"/>
+</svg> 
